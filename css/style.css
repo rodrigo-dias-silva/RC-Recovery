@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&family=Poppins:wght@300;500;600&family=Quicksand:wght@500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+}
+
+.header{
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.header-logo{
+    height: 80%;
+    border-radius: 50%;
+}
+
+.header-menu{
+    display: flex;
+    gap: 35px;
+}
+
+.header-menu-item{
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    background-image: #f5f5f5
+}
+
+.content-home{
+    background: url("/RC Recovery/images/painel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.content-home-element{
+    width: 60%;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgba(58, 0, 255, 0.7), transparent);
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    color: #fff;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.content-home-element-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.content-home-element-list{
+    list-style: none;
+}
+
+.content-home-element-item{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-home-element-button{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    border: none;
+    width: 220px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: rgba(20, 20, 20, 0.6) 4px 4px 8px;
+}
+
+.content-customers{
+    height: 100vh;
+    width: 98%;
+    margin: 0 auto ;
+}
+
+.content-customers-div1{
+    height: 30vh;
+}
+
+.content-customers-title{
+    font-size: 60px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 10%;
+    color: #333
+}
+
+.content-customers-div2{
+    background-color: aqua;
+    width: 100%;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+.content-customers-list{
+    width: 25%;
+}
+
+.content-customers-jobs-img{
+    max-width: 100px;
+    box-shadow: 20px 20px 50px rgba(73, 73, 73, 0.4);
+}
+
+.content-doubts{
+    height: 100vh;
+}
+
+.content-doubts-div1{
+    height: 30vh;
+}
+
+.content-doubts-title{
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    padding-top: 8%;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.content-doubts-div2{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content-questions{
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 40px;
+}
+
+.content-doubts-questions{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.content-doubts-question-h3{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #30176e;
+}
+
+.h3-2{
+    padding-top: 30px;
+}
+
+.content-doubts-answer{
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #333;
+}
+
+.content-doubts-img{
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+    z-index: -1;
+}
+
+.content-doubts-img img{
+    position: relative;
+    width: 40vw;
+    object-fit: cover;
+    clip-path: circle(60% at 60% 66%);
+}
+
+.content-social{
+    min-height: 70vh;
+}
+
+.content-social-title{
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    padding-top: 10%;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.content-social-group-icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10%;
+    gap: 10%;
+}
+
+.fb{
+    filter: drop-shadow(10px 10px 10px rgba(14, 98, 255, 0.6));
+}
+
+.ig{
+    filter: drop-shadow(10px 10px 10px rgba(255, 14, 255, 0.6));
+}
+
+.wp{
+    filter: drop-shadow(10px 10px 10px rgba(14, 255, 14, 0.6));
+}
+
+.content-social-icons img{
+    height: 200px;
+}
+
+.footer-by{
+    background-image: linear-gradient(to right,rgba(58, 0, 255, 0.7), rgba(15, 63, 153, 1));
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-by a{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
