@@ -1,94 +1,99 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RC Recovery | Restauração de peças plásticas</title>
-    <link rel="stylesheet" href="./dist/output.css" />
-  </head>
-  <body class="bg-slate-800 max-w-5xl flex flex-col m-auto">
-    <header class="h-16 flex justify-between">
-      <div class="flex items-center justify-center">
-        <a href="#home">
-          <img src="./images/logo.jpeg" alt="logotipo da empresa" class="w-10 rounded-full" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RC Recovery | Restauração de peças plásticas</title>
+  <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="bg-slate-800 max-w-6xl flex flex-col m-auto transition text-slate-200">
+  <header class="h-24 flex justify-between border-b-2 border-slate-600 shadow">
+    <div class="flex items-center justify-center">
+      <a href="#home">
+        <img src="./images/logo.jpeg" alt="logotipo da empresa" class="w-20 rounded-full" />
+      </a>
+    </div>
+    <nav class="flex items-center justify-center">
+      <ul class="flex items-center justify-center gap-5 text-lg">
+        <li>
+          <a href="#home" class="hover:text-slate-500">
+            Início
+          </a>
+        </li>
+        <li>
+          <a href="#questions" class="hover:text-slate-500">
+            Dúvidas
+          </a>
+        </li>
+        <li>
+          <a href="#social" class="hover:text-slate-500">
+            Contato
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="flex flex-col items-center w-full">
+    <section class="flex w-full h-screen" id="home">
+      <div class="flex-1">
+        <h1 class="text-3xl font-bold">Na RC Recovery somos especializados em:</h1>
+        <ul>
+          <li>Peças automotivas</li>
+          <li>Peças de eletroeletrônicos</li>
+          <li>Peças plasticas em geral</li>
+        </ul>
+        <a class="block" href="#social">
+          <span class="bg-cyan-500 py-3 rounded flex justify-center items-center">
+            Peça um orçamento
+          </span>
         </a>
       </div>
-      <nav class="flex items-center justify-center">
-        <ul class="flex items-center justify-center gap-5 text-lg">
-          <li>
-            <a href="#home" class="text-slate-200">
-              Início
-            </a>
-          </li>
-          <li>
-            <a href="#questions" class="text-slate-200">
-              Dúvidas
-            </a>
-          </li>
-          <li>
-            <a href="#social" class="text-slate-200">
-              Contato
-            </a>
-          </li>
-        </ul>
-        
-        
-        
-      </nav>
-    </header>
-    <main class="flex flex-col items-center w-full">
-      <section class="" id="home">
-        <div>
-          <h1>Na RC Recovery somos especializados em:</h1>
-          <ul>
-            <li>Peças automotivas</li>
-            <li>Peças de eletroeletrônicos</li>
-            <li>Peças plasticas em geral</li>
-          </ul>
-          <a href="#social">Peça um orçamento</a>
-        </div>
-        <div></div>
-      </section>
-      <section class="" id="questions">
-        <h2>Dúvidas</h2>
-        <div>
-          <h3>Por que recuperar uma peça quebrada?</h3>
-          <span>Além de manter a originalidade do produto, voçê gasta uma fração do valor de uma peça nova.</span>
-        </div>
-        <div>
-          <h3>Qual a durabilidade de uma peça recuperada?</h3>
-          <span>Devido a qualidade dos produtos que utilizamos, ligas plasticas e resinas. O produto final equipara-se ao item novo, se não, fica mais resistente que o original.</span>
-        </div>
-        <div>
-          <h3>Qual a média de preço para recuperar?</h3>
-          <span>Os valores podem variar de 10 à 50% do valor de uma peça original.</span>
-        </div>
-      </section>
-      <section class="" id="social">
-        <h2>Contato</h2>
-        <ul class="flex gap-10">
-          <li>
-            <a href="http://" class="w-20">
-              <img src="images/instagram.png" alt="logo instagram" class="w-20">
-              <span>Instagram</span>
-            </a>
-          </li>
-          <li>
-            <a href="http://">
-              <img src="images/facebook.png" alt="logo facebook" class="w-20">
-              <span>Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a href="http://">
-              <img src="images/whatsapp.png" alt="logo whatsapp" class="w-20">
-              <span>WhatsApp</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer>rodapé</footer>
-  </body>
+      <div class="flex-1 bg-painel bg-cover bg-right"></div>
+    </section>
+    <section class="" id="questions">
+      <h2 class="text-2xl font-bold">Dúvidas</h2>
+      <div>
+        <h3>Por que recuperar uma peça quebrada?</h3>
+        <span>Além de manter a originalidade do produto, voçê gasta uma fração do valor de uma peça nova.</span>
+      </div>
+      <div>
+        <h3>Qual a durabilidade de uma peça recuperada?</h3>
+        <span>Devido a qualidade dos produtos que utilizamos, ligas plasticas e resinas. O produto final equipara-se ao
+          item novo, se não, fica mais resistente que o original.</span>
+      </div>
+      <div>
+        <h3>Qual a média de preço para recuperar?</h3>
+        <span>Os valores podem variar de 10 à 50% do valor de uma peça original.</span>
+      </div>
+    </section>
+    <section class="w-full flex flex-col justify-center items-center gap-10" id="social">
+      <h2 class="text-2xl font-bold">Contato</h2>
+      <ul class="flex gap-10">
+        <li>
+          <a href="http://" class="">
+            <img src="images/instagram.png" alt="logo instagram" class="w-20 transition-all hover:scale-125">
+            <span class="">Instagram</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://">
+            <img src="images/facebook.png" alt="logo facebook" class="w-20">
+            <span>Facebook</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://">
+            <img src="images/whatsapp.png" alt="logo whatsapp" class="w-20">
+            <span>WhatsApp</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="w-full">rodapé</footer>
+</body>
+
 </html>
